@@ -1,0 +1,167 @@
+@media only screen and (max-width :700px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    
+    body{
+        background-color: rgb(30, 30, 30);
+    }
+
+    .a1{
+        position: absolute;
+        left: 40%;
+        top: 45%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        size: 30px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 7px;
+        font-weight: bold;
+        border: 2px solid #3eff37;
+        background: transparent;
+        cursor: pointer;
+        overflow: hidden;
+
+
+    }
+
+
+    .a2{
+        position: absolute;
+        left: 40%;
+        top: 55%;
+        color:#fff;
+        text-decoration: none;
+        size: 30px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 7px;
+        font-weight: bold;
+        border: 2px solid #3eff37;
+        background: transparent;
+        cursor: pointer;
+        overflow: hidden;
+
+
+    }
+    
+    .s{
+        position: absolute;
+        left: 0;
+        width: 0%;
+        top: 0;
+        height: 50px;
+        background-color: #3eff37;
+        transition: 1s;
+    }
+
+
+    .a1:hover .s{
+        width: 100%;
+    }
+    
+    .s1{
+        position: absolute;
+        left: 0;
+        width: 0%;
+        top: 0;
+        height: 50px;
+        background-color: #3eff37;
+        transition: 1s;
+    }
+
+
+    .a2:hover .s1{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width :701px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    
+    body{
+        background-color: rgb(30, 30, 30);
+    }
+
+    .a1{
+        position: absolute;
+        left: 45%;
+        top: 45%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        size: 30px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 7px;
+        font-weight: bold;
+        border: 2px solid #3eff37;
+        background: transparent;
+        cursor: pointer;
+        overflow: hidden;
+
+
+    }
+
+
+    .a2{
+        position: absolute;
+        left: 45%;
+        top: 55%;
+        color:#fff;
+        text-decoration: none;
+        size: 30px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        padding-top: 7px;
+        font-weight: bold;
+        border: 2px solid #3eff37;
+        background: transparent;
+        cursor: pointer;
+        overflow: hidden;
+
+
+    }
+    
+    .s{
+        position: absolute;
+        left: 0;
+        width: 0%;
+        top: 0;
+        height: 50px;
+        background-color: #3eff37;
+        transition: 1s;
+    }
+
+
+    .a1:hover .s{
+        width: 100%;
+    }
+    
+    .s1{
+        position: absolute;
+        left: 0;
+        width: 0%;
+        top: 0;
+        height: 50px;
+        background-color: #3eff37;
+        transition: 1s;
+    }
+
+
+    .a2:hover .s1{
+        width: 100%;
+    }
+}
+
